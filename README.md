@@ -1,18 +1,31 @@
-# Shopping Cart Practice with Vanilla JavaScript
+# Shopping Cart Practice with AlpineJS
 
-## stacks
 
-- fontawesome
-- bootstrap
-- parcel bundle
+## Project Setup
 
-## steps
+```sh
+npm install
+```
 
-- make sure `yarn` is installed.
-- run `yarn install` to install all packages.
-- run `yarn run dev` or `yarn dev` to run a development server on your local machine.
-- and write all implements in `src/main.js`.
+### Compile and Hot-Reload for Development
 
-photo credits: [unsplash](https://unsplash.com/)
+```sh
+npm run dev
+```
 
-by Eddie Kao (eddie@5xcampus.com)
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
+
+### 專案簡介
+AlpineJS_ShoppingCart 是一個使用 Alpine.js 構建的簡單購物車應用，展示如何使用 Alpine.js 來實現動態交互，無需繁重的框架。此購物車功能允許用戶添加和移除商品、計算總價以及管理購物清單。
+
+### 功能列表
++ 商品的新增與刪除
++ 顯示購物車內商品總數
++ 自動計算購物車內商品總價
++ 即時更新的動態界面
+
+![image](https://github.com/user-attachments/assets/5b549a54-914b-4ec5-8808-5230323588a0)
